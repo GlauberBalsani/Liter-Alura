@@ -145,7 +145,7 @@ public class Main {
         var idioma = SCANNER.nextLine();
         List<Livro> livros = livroRepository.findBookByIdioma(idioma);
         livros.forEach(System.out::println);
-        
+
 
     }
 
